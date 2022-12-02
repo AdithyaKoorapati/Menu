@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first"
+    tools:context=".DashBoardScreen">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="287dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="124dp"
+        android:gravity="top"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/prof" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Assistant Engineer"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+
+    <!--        android:id="@+id/rectangle"-->
+    <!--        android:layout_width="366dp"-->
+    <!--        android:layout_height="292dp"-->
+    <!--        android:layout_marginTop="83dp"-->
+
+    <!--        android:background="@drawable/rectangle"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.494"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">-->
+
+
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/rectangle_linear"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:gravity="left"-->
+    <!--            android:orientation="vertical"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent"-->
+    <!--            app:layout_constraintVertical_bias="0.0">-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Sub Station"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:textSize="18sp" />-->
+
+    <!--            <androidx.coordinatorlayout.widget.CoordinatorLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                tools:context=".MainActivity">-->
+
+    <!--                <com.google.android.material.textfield.TextInputLayout-->
+    <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_margin="0dp"-->
+    <!--                    android:hint="@string/select">-->
+
+    <!--                    <AutoCompleteTextView-->
+    <!--                        android:id="@+id/auto_complete_textview"-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="54dp"-->
+    <!--                        android:hint="@string/select"-->
+    <!--                        android:inputType="none" />-->
+    <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+
+    <!--            </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Sub Division"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:textSize="18sp" />-->
+
+    <!--            <androidx.coordinatorlayout.widget.CoordinatorLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                tools:context=".MainActivity">-->
+
+    <!--                <com.google.android.material.textfield.TextInputLayout-->
+    <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_margin="0dp"-->
+    <!--                    android:hint="@string/select">-->
+
+    <!--                    <AutoCompleteTextView-->
+    <!--                        android:id="@+id/auto_complete_textview2"-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="51dp"-->
+    <!--                        android:hint="@string/select"-->
+    <!--                        android:inputType="none" />-->
+    <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+
+    <!--            </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Area"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:textSize="18sp" />-->
+
+    <!--            <androidx.coordinatorlayout.widget.CoordinatorLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                tools:context=".MainActivity">-->
+
+    <!--                <com.google.android.material.textfield.TextInputLayout-->
+    <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_margin="0dp"-->
+    <!--                    android:hint="@string/select">-->
+
+    <!--                    <AutoCompleteTextView-->
+    <!--                        android:id="@+id/auto_complete_textview3"-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="48dp"-->
+    <!--                        android:hint="@string/select"-->
+    <!--                        android:inputType="none" />-->
+    <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+
+    <!--            </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
+
+
+    <!--        </LinearLayout>-->
+    <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:background="@drawable/rectangle"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.334"
+        tools:layout_editor_absoluteX="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sub Station"/>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="227dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="57dp"
+        android:text="Next"
+        app:circularflow_radiusInDP="20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

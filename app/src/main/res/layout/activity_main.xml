@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/backgroundlayout"
+        android:layout_width="251dp"
+        android:layout_height="194dp"
+        android:background="@drawable/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="202dp"
+        android:layout_height="148dp"
+        android:background="@drawable/logo"
+        android:rotationX="-8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="180dp"
+        android:gravity="center"
+        android:text="From"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Roamonix Technologies.PVT LTD"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866"
+        tools:ignore="MissingConstraints" />
+
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+
+    <!--        android:id="@+id/rectangle"-->
+    <!--        android:layout_width="324dp"-->
+    <!--        android:layout_height="281dp"-->
+    <!--        android:layout_marginTop="307dp"-->
+    <!--        android:layout_marginBottom="32dp"-->
+    <!--        android:background="@drawable/rectangle"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/button2"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent">-->
+
+
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/rectangle_linear"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:gravity="left"-->
+    <!--            android:orientation="vertical"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent"-->
+    <!--            app:layout_constraintVertical_bias="0.0">-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/userid"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:padding="12dp"-->
+    <!--                android:text="User Id"-->
+    <!--                android:textFontWeight="60"-->
+    <!--                android:textSize="24sp" />-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/useride"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/textfield"-->
+    <!--                android:hint="User Name" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/password"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:padding="12dp"-->
+
+    <!--                android:text="Password"-->
+    <!--                android:textFontWeight="60"-->
+    <!--                android:textSize="24sp" />-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/passworde"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/textfield"-->
+    <!--                android:hint="User Name"-->
+    <!--                android:inputType="numberPassword" />-->
+
+
+    <!--        </LinearLayout>-->
+    <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView2"-->
+    <!--        android:layout_width="155dp"-->
+    <!--        android:layout_height="144dp"-->
+    <!--        android:layout_marginTop="66dp"-->
+
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:srcCompat="@drawable/logo" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button2"-->
+    <!--        android:layout_width="227dp"-->
+    <!--        android:layout_height="53dp"-->
+    <!--        android:layout_marginBottom="58dp"-->
+    <!--        android:text="Log In"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:background="#F20B370C"-->
+    <!--        app:circularflow_radiusInDP="20"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintCircleRadius="30dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/rectangle" />-->
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
